@@ -13,8 +13,14 @@ attributes of gray level co-occurrence matrix. Also, I provide python interface.
 need copy pybind11 to specify path.
 
 1.A threshold T is calculated for every pixel in the image using the following formula:  
-niback: T = m(x,y) - k * s(x,y)  
-sauvola: T = m(x,y) * (1 + k * ((s(x,y) / R) - 1))  
+  Niblack local threshold:
+    ```bash 
+    T = m(x,y) - k * s(x,y)  
+    ```
+   Sauvola local threshold( Sauvola is a modification of Niblack technique): 
+     ```bash
+     T = m(x,y) * (1 + k * ((s(x,y) / R) - 1))  
+     ```
 
 ## Installion
 1. Download pybind11
