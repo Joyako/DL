@@ -18,6 +18,9 @@ need copy pybind11 to specify path.
   Sauvola local threshold( Sauvola is a modification of Niblack technique):  
     T = m(x,y) * (1 + k * ((s(x,y) / R) - 1))  
 
+**Loss**
+The three kind of loss are cetner loss, focal loss, quadratic kappa loss respectively.
+
 ## Installion
 1. Download pybind11
     ```bash
