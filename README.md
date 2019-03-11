@@ -21,3 +21,9 @@ sauvola: T = m(x,y) * (1 + k * ((s(x,y) / R) - 1))
     ```bash
 	git clone https://github.com/pybind/pybind11.git
     ```
+2. Pytorch
+    ```bash
+    conda install pytorch-nightly cuda92 -c pytorch
+    ```
+
+License: MIT license (MIT)
